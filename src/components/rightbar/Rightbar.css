@@ -1,0 +1,82 @@
+.rightbar__container {
+        height: calc(100vh - 4rem);
+        overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+        width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+        background-color: var(--mainGrey);
+}
+
+::-webkit-scrollbar-thumb {
+       background-color: var(--mainGrey);
+}
+.rightbar__container-wrapper{
+        padding: 2rem 2rem 1rem;
+       
+}
+.wrapper__birthday-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+}
+.birthday-img{
+       width: 5rem;
+       object-fit: contain;
+       margin-right: 0.8rem;
+}
+
+.birthday-text {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.rigthbar__container-img
+ {
+        width: 100%;
+        /* object-fit: cover; */
+        margin: 1.5rem .5rem;
+        border-radius: .4rem;
+}
+
+.rigthbar__container-friendsList {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+}
+
+.friendList-item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.2rem;
+}
+
+.friendList-item__container {
+        margin-right: 1rem;
+        position: relative;
+}
+.friendList-item-profileImg{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+.friendList-item-online {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background-color: limegreen;
+        position: absolute;
+        top: -0.3rem;
+        right: 0;
+        border: 2px solid white;
+}
+
+.friendList-item-profileName {
+        font-weight: 500;
+        font-size: 1.25em;
+}

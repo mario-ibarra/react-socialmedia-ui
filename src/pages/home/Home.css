@@ -1,0 +1,5 @@
+.home__container {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    
+}

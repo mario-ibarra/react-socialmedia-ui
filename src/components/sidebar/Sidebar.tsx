@@ -1,5 +1,7 @@
 import { Bookmark, CastForEducation, CastForEducationOutlined, Chat, Event, People, QuestionAnswerOutlined, RssFeed, VideoSettings, Work } from '@mui/icons-material'
 import './Sidebar.css'
+import { Users } from '../../dummyData';
+import Friend from '../friends/Friend';
 
 
 
@@ -47,39 +49,12 @@ function Sidebar() {
                 </ul>
                 <button className=" btn sidebar__container-button">Show More</button>
                 <hr className="sidebar__wraper-hr" />
+
+                <h4 className="sidebar__wrapper-friendList">Friends</h4>
                 <ul className="sidebar__wrapper-friend-list">
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/1.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/2.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/3.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/4.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/4.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/4.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/4.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
-                    <li className="sidebar__wrapper-friend">
-                        <img src="/assets/person/4.jpeg" alt="" className="sidebar__wraper-friend-img" />
-                        <span className="sidebar__wrapper-friend-name">Joe Doe</span>
-                    </li>
+                    {Users.map((friend)=>(
+                        <Friend key={friend.id } friend={friend}/>
+                    ))}
                 </ul>
             </div>
         </div>

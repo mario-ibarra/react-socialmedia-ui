@@ -7,7 +7,7 @@
     color: var(--mainWhite);
      position: sticky;
      top:0;
-
+    z-index: 999;
 }
 
 .topbar__left {
@@ -84,8 +84,17 @@ transition: none;
 }
 .topbar__right-badge {
     position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
     top: -10px;
-    color: brown;
+    color: var(--crl-accent);
+    padding-right: 10px;
+    /* width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--mainWhite); */
+
 }
 
 .topbar__right-img {

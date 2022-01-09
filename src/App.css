@@ -16,7 +16,8 @@ html {
 :root {
     --primaryColor: #0065F1;
     --secondaryColor: #364367;
-    --crl-accent: #737591;
+    --crl-accent: #FC1A40;
+    /* --crl-accent: #737591; */
     --mainWhite: #fff;
     --offWhite: #f7f7f7;
     --mainBlack: #222;

@@ -4,9 +4,10 @@
      -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.42);
      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.42);
      margin: 2rem 0;
+     /* padding: 1rem; */
 }
 .post__container-wrapper {
-    padding: .8rem;  
+    padding:1.8rem;  
 }
 
 .post__container-wrapper-top {
@@ -39,15 +40,19 @@
 /* wrapper center */
 .post__container-wrapper-center{
     margin: 1.5rem 0;
+    padding: 2rem;
 }
 .wrapper__center-text {
-    padding: 1.2rem;
+    /* padding: 1rem;
+    text-align: left; */
+    margin-bottom: 1.5rem;
 }
 .wrapper__center-postImg{
     width: 100%;
-    max-height: 30rem ;
-    object-fit: cover;
+    max-height: 35rem;
+    object-fit: contain;
     margin-top: 1.4rem;
+
 }
 
 /* wrapper bottom */

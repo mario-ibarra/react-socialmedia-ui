@@ -1,7 +1,11 @@
 import './Rightbar.css';
+import { Users } from '../../dummyData';
+import Online from '../online/Online';
+
 
 
 function Rightbar() {
+    
     return (
         <div className='rightbar__container'>
             <div className="rightbar__container-wrapper">
@@ -14,132 +18,9 @@ function Rightbar() {
                 <img src="/assets/social.jpg" alt="" className="rigthbar__container-img" />
                 <h4 className="rigthbar__container-title">Online Friends</h4>
                 <ul className="rigthbar__container-friendsList">
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
-                    <li className="friendList-item">
-                        <div className="friendList-item__container">
-                            <img src="/assets/person/3.jpeg" alt="" className="friendList-item-profileImg" />
-                            <span className="friendList-item-online"></span>
-                        </div>
-                            <span className="friendList-item-profileName">Jane Doe</span>
-                    </li>
+                    {Users.map((user) => (
+                    <Online key={user.id} user={user} />
+                    ))}
                 </ul>
 
             </div>         

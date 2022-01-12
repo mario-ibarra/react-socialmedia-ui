@@ -87,7 +87,7 @@ function Rightbar({ profileComp}:any) {
     return (
         <div className='rightbar__container'>
             <div className="rightbar__container-wrapper">
-                    <ProfileRightbar  />
+                    {profileComp ? <ProfileRightbar  /> : <HomeRightbar />}
             </div>         
         </div>
     )

@@ -1,8 +1,10 @@
 .rightbar__container {
         height: calc(100vh - 4rem);
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
+        overflow-y: auto;
          position: sticky;
          top: 4rem;
+         
 }
 
 /* ::-webkit-scrollbar {

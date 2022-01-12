@@ -21,6 +21,7 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: var(--mainSpacing);
+    color: var(--mainWhite);
 }
 
 .topbar__center {

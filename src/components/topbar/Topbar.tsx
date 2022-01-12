@@ -7,7 +7,7 @@ function Topbar() {
         <div className='topbar__container'>
              <div className="topbar__left">
                  <Link to="/" className='link'>
-                    <span className="topbar__left-logo">Høyre Demo</span>
+                    <span className="topbar__left-logo">Mario Social Demo</span>
                  </Link>
              </div>
              <div className="topbar__center">

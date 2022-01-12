@@ -2,10 +2,10 @@
         height: calc(100vh - 4rem);
         overflow-y: scroll;
          position: sticky;
-         top: 3.5rem;
+         top: 4rem;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
         width: 0.7rem;
 }
 
@@ -15,7 +15,8 @@
 
 ::-webkit-scrollbar-thumb {
        background-color: var(--mainGrey);
-}
+} */
+
 .rightbar__container-wrapper{
         padding: 2rem 2rem 1rem;
        
@@ -49,3 +50,49 @@
         margin: 0;
         list-style: none;
 }
+
+/* Righbar profile page items */
+
+.rightbar__title{
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+}
+
+.rightbar__info {
+        margin-bottom: 3rem;
+}
+
+.rightbar__info-item{
+        margin-bottom: 0.8rem;
+        display: flex;
+        align-items: center;
+}
+
+.rightbar__info-key{
+        margin-right: 0.8rem;
+        font-weight: 700;
+        color:var(--mainGrey)
+}
+.rightbar__info-value{
+        font-weight: 500;
+}
+
+.rightbar__followings{
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+}
+.rightbar__following{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+}
+.rightbar__following-img {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: .5rem;
+        object-fit: cover;
+}
+

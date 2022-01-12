@@ -1,7 +1,7 @@
-
 .feedbar__container{
     height: calc(100vh - 4rem);
     overflow-y: scroll;
+    
 }
 
 ::-webkit-scrollbar {
